@@ -1,0 +1,249 @@
+ /* tablet */
+ @media (min-width : 501px) and (max-width : 922px) {
+    .contineer {
+        width: 90%;
+        margin: auto;
+    }
+    .food-img {
+        width: 100%;
+        padding-right: 5rem;
+        padding-top: 4rem;
+    }
+    .menu-btn {
+        margin-bottom: 1.25rem;
+    }
+    #cta .contineer .cta-box {
+        width: 70%;
+    }
+    #cta .contineer .cta-box .cta-btn {
+        left: 2%;
+        text-align: center;
+    }
+   
+    
+ }
+ /*surface duo */
+ @media (min-width : 540px) and (max-width : 720px) {
+    section {
+        padding: 2rem 0;
+      }
+      .row{
+        margin-top: 0rem;
+    }
+    .food-img {
+        width: 110%;
+        padding-right: 5rem;
+        padding-top: 5rem;
+    }
+    .col1-2 h1 {
+        margin-top: 3rem;
+    }
+    .check-btn {
+        display: block;
+        margin-left: 1rem;
+    }
+    /* .humbrger i {
+        display: block;
+        margin-left: 1rem;
+    } */
+    nav {
+        position: relative;
+    }
+    .toggle__box  {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #a2de96;
+        width: 100%;
+        margin-top: 2rem;
+        border-radius: 0.7rem;
+        left: -100%;
+        margin-top: 4rem;
+        padding: 3rem;
+        text-align: center;
+        z-index: 10;
+      }
+      #check {
+        display: none;
+      }
+      header ul {
+        display: block;
+    }
+    header ul li {
+       margin: 0.5rem 0rem;
+    }
+    header ul li a {
+       font-size: 1.25rem;
+     }
+     header .toggle__box ul li a.active,.toggle__box ul li a:hover{
+        color: #fff;
+      } 
+      #check:checked ~ .toggle__box {
+        display: block;
+      }
+      .col1-4 {
+        flex-basis:  calc( 100% / 2);
+        text-align: center;
+        padding: 0.5rem 0.5rem;
+    }
+    #reviews .contineer .row .col1-3 {
+        flex-basis: 100%;
+        text-align: center;
+     }
+     #cta .contineer .cta-box {
+        width: 90%;
+    }
+      footer .col1-4 {
+        flex-basis:  100%;
+        text-align: center;
+        padding: 0.5rem 0.5rem;
+    }
+      footer .logo a {
+        color: black;
+        transition: 0s;
+    }
+    footer .social-links a {
+        margin-right: 1rem;
+      }
+    footer h3 {
+        text-align: center;
+      }
+    footer ul li  {
+        text-align: center;
+      }
+
+ }
+
+
+ /* mobile */
+ @media (max-width : 500px) {
+    .contineer {
+        width: 100%;
+        margin: auto;
+    }
+    section {
+        padding: 2rem 0;
+      }
+      .row{
+        margin-top: 0rem;
+    }
+    .img-logo{
+        margin-right: 1rem;
+    }
+    .check-btn {
+        display: block;
+        margin-left: 1rem;
+    }
+    nav {
+        position: relative;
+    }
+    .toggle__box {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #a2de96;
+        width: 100%;
+        margin-top: 2rem;
+        border-radius: 0.7rem;
+        left: -100%;
+        margin-top: 4rem;
+        padding: 3rem;
+        text-align: center;
+        z-index: 10;
+      }
+      #check {
+        display: none;
+      }
+      header ul {
+        display: block;
+    }
+    header ul li {
+       margin: 0.5rem 0rem;
+    }
+    header ul li a {
+       font-size: 1.25rem;
+     }
+     header .toggle__box ul li a.active,.toggle__box ul li a:hover{
+        color: #fff;
+      } 
+      #check:checked ~ .toggle__box {
+        display: block;
+      }
+    .menu-btn {
+        margin-bottom: 1.25rem;
+    }
+    .col1-2 {
+        flex-basis: 90% ;
+    }
+    .col1-3 {
+        flex-basis: 90% ;
+        margin: 1rem 0rem;
+    }
+    .col1-4 {
+        flex-basis: 90% ;
+    }
+    .food-img {
+       display: none;
+    }
+    .advantages .contineer h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    #menu .contineer h2 {
+        padding-bottom: 1.5rem;
+        margin-right: 1rem;
+    }
+    .btn-small{
+        padding: 0.5rem 1rem;
+        margin: 0 0.4rem;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    .product-info {
+        width: 100%;
+      }
+      #book .contineer {
+        width: 90%;
+     }
+     .book-info {
+       width: 65%;
+     }
+     #reviews .contineer h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+     }
+     #reviews .contineer .row .col1-3 {
+        flex-basis: 90%;
+     }
+     #cta .contineer .cta-box {
+       width: 90%;
+    }
+    #cta .contineer .cta-box .cta-btn {
+        display: block;
+        width: 30%;
+        left: 2%;
+        text-align: center;
+    }
+    #cta .contineer .cta-box .cta-btn .cta-btn-1 {
+        display: block;
+        background-color: #a2de96;
+        padding: 1rem 1rem;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+    }
+    footer .logo a {
+        color: black;
+        transition: 0s;
+    }
+    footer .social-links a {
+        margin-right: 1rem;
+      }
+    footer h3 {
+        text-align: center;
+      }
+    footer ul li  {
+        text-align: center;
+      }
+
+}
